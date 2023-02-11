@@ -15,10 +15,11 @@ from tqdm import tqdm
 # If modifying these scopes, delete the file token.json.
 #SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly']
 #SCOPES = 'https://www.googleapis.com/auth/drive.file'
-SCOPES = ['https://www.googleapis.com/auth/drive.file',
-            'https://www.googleapis.com/auth/drive',
-                'https://www.googleapis.com/auth/drive.file',
-                    'https://www.googleapis.com/auth/drive.metadata'
+SCOPES = [
+    'https://www.googleapis.com/auth/drive.file',
+    'https://www.googleapis.com/auth/drive',
+    'https://www.googleapis.com/auth/drive.file',
+    'https://www.googleapis.com/auth/drive.metadata',
 ]
 
 
