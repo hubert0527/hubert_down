@@ -7,6 +7,8 @@ I am gonna let you down.
 python download.py <google_drive_id> <output_filename>
 ```
 
+If `<google_drive_id>` corresponds to a single file, the script will download the file to `<output_filename>`. Otherwise, it will recursively download the folder content, and preserve the folder structure in Google Drive.
+
 ## Prerequirements
 Note: Step 3-4 needs to be done again after the credential is expired (~1 hour?). But you can run many downloading jobs simultaneously before it expires.
 
